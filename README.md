@@ -19,8 +19,9 @@ Build opencv with cuda and cuDnn supports by Windows 11.
   * merge cuDnn files under cuda installed path: eq. C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\
 
 ## Build and Install
-* Follow this article for the build and installation. 
+* Follow these articles for the build and installation. 
   * https://machinelearningprojects.net/build-opencv-with-cuda-and-cudnn/
+  * https://www.youtube.com/watch?v=d8Jx6zO1yw0
 
 ## GPU Supported
 * https://en.wikipedia.org/wiki/CUDA#:~:text=GPUs%20supported%5Bedit%5D
