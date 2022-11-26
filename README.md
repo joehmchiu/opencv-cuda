@@ -14,3 +14,7 @@ build opencv with cuda and cudnn by windows 11
   * choco install -y cmake --version=3.23
 * install cuda toolkits
   * choco install -y cuda
+
+## Build and Install
+* Follow this article for the build and installation. 
+  * https://machinelearningprojects.net/build-opencv-with-cuda-and-cudnn/
