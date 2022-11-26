@@ -1,5 +1,5 @@
 # opencv-cuda
-build opencv with cuda and cudnn by windows 11
+Build opencv with cuda and cuDnn supports by Windows 11.
 ## pre-requisites
 * install chocolatey 
   * https://docs.chocolatey.org/en-us/choco/setup
@@ -9,7 +9,7 @@ build opencv with cuda and cudnn by windows 11
 * install python
   * choco install -y python
 * install visual studio 2019 v.16
-  * choco install -y visualstudio2019professional
+  *  choco install -y visualstudio2019community
 * install cmake version 3.23
   * choco install -y cmake --version=3.23
 * install cuda toolkits
