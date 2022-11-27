@@ -24,5 +24,11 @@ Build opencv with cuda and cuDnn supports by Windows 11.
   * https://www.youtube.com/watch?v=d8Jx6zO1yw0
     * cmake --build "C:\gpu\opencv\build" --target INSTALL --config Release
 
+## Test
+* <quote>
+  import cv2
+  cv2.__version__
+  cv2.cuda.getCudaEnabledDeviceCount()
+  </quote>
 ## GPU Supported
 * https://en.wikipedia.org/wiki/CUDA#:~:text=GPUs%20supported%5Bedit%5D
