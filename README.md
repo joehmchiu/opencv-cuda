@@ -21,6 +21,7 @@ Build opencv with cuda and cuDnn supports by Windows 11.
 ## Build and Install
 * Follow these articles for the build and installation. 
   * https://machinelearningprojects.net/build-opencv-with-cuda-and-cudnn/
+  * https://thinkinfi.com/install-opencv-gpu-with-cuda-for-windows-10/
   * https://www.youtube.com/watch?v=d8Jx6zO1yw0
     * cmake --build "C:\gpu\opencv\build" --target INSTALL --config Release
 
