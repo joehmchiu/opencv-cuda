@@ -30,6 +30,11 @@ import cv2
 cv2.__version__
 cv2.cuda.getCudaEnabledDeviceCount()
 </pre>
+<pre>
+import cv2
+from cv2 import cuda
+cuda.printCudaDeviceInfo(0)
+</pre>
 
 ## GPU Supported
 * https://en.wikipedia.org/wiki/CUDA#:~:text=GPUs%20supported%5Bedit%5D
