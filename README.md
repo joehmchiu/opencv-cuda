@@ -14,9 +14,13 @@ Build opencv with cuda and cuDnn supports by Windows 11.
   * choco install -y cmake --version=3.23
 * install cuda toolkits
   * choco install -y cuda
-  * or download site: https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=11
-  * download cuDnn package from: https://developer.nvidia.com/cudnn
-  * merge cuDnn files under cuda installed path: eq. C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\
+  * or download site: https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=11 
+  * download cuDnn package from: https://developer.nvidia.com/cudnn (cudnn-windows-x86_64-8.6.0.xxx_cudaxx-archive.zip)
+  * make sure merged all cuDnn files under cuda installed path: eq. C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\
+    * bin
+    * include
+    * lib
+    * LICENSE
 
 ## Build and Install
 * Follow these articles for the build and installation. 
