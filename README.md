@@ -26,6 +26,11 @@ Build opencv with cuda and cuDnn supports by Windows 11.
 ## Build and Install
 * Follow these articles for the build and installation. 
   * https://machinelearningprojects.net/build-opencv-with-cuda-and-cudnn/
+    * WITH_CUDA
+    * OPENCV_DNN_CUDA
+    * FAST_MATH
+    * EXTRA
+    * FAST
   * https://thinkinfi.com/install-opencv-gpu-with-cuda-for-windows-10/
   * https://www.youtube.com/watch?v=d8Jx6zO1yw0
     * cmake --build "C:\gpu\opencv\build" --target INSTALL --config Release
@@ -42,5 +47,8 @@ from cv2 import cuda
 cuda.printCudaDeviceInfo(0)
 </pre>
 
+## Issue
+* zlibwapi.lib missing issue
+* download zlib123dllx64.zip though it's not in recommnendations
 ## GPU Supported
 * https://en.wikipedia.org/wiki/CUDA#:~:text=GPUs%20supported%5Bedit%5D
